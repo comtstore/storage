@@ -9,6 +9,7 @@
     "build": "npm run clean && node --experimental-json-modules ./node_modules/.bin/rollup --config  ./build/rollup.config.prod.js",
     "clean": "rimraf ./dist"
   },
+  "homepage": "https://github.com/comtstore/storage",
   "devDependencies": {
     "@babel/preset-env": "^7.19.4",
     "@babel/preset-typescript": "^7.18.6",
