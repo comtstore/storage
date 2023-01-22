@@ -1,6 +1,6 @@
 {
   "name": "@comtstore/storage",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -9,6 +9,10 @@
     "build": "npm run clean && node --experimental-json-modules ./node_modules/.bin/rollup --config  ./build/rollup.config.prod.js",
     "clean": "rimraf ./dist"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "homepage": "https://github.com/comtstore/storage",
   "devDependencies": {
     "@babel/preset-env": "^7.19.4",
